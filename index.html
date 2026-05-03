@@ -25,7 +25,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
-    <link type="text/css" rel="stylesheet" href="main.css" />
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/woodle87/car@main/main.css" />
   </head>
   <style>
     
@@ -37,25 +37,25 @@
       <h1 class="h1-heading">death race 2008</h1>
       <div class="menu">
         <div class="face">
-            <img class="face-img" src="img/ames.jpg" alt="">
+            <img class="face-img" src="https://cdn.jsdelivr.net/gh/woodle87/car@main/img/ames.jpg" alt="">
             <button id="btn" class="btn btn1">jensen</button>
         </div>
         <div class="face">
-            <img class="face-img" src="img/case.jpg" alt="">
+            <img class="face-img" src="https://cdn.jsdelivr.net/gh/woodle87/car@main/img/case.jpg" alt="">
             <button id="btn2" class="btn btn1">case</button>
         </div>
         <div class="face">
-            <img class="face-img" src="img/pachenko.jpg" alt="">
+            <img class="face-img" src="https://cdn.jsdelivr.net/gh/woodle87/car@main/img/pachenko.jpg" alt="">
             <button id="btn3" class="btn btn1">pachenko</button>
         </div>
       </div>       
       
 
       <audio id="player" autoplay loop controls hidden>
-        <source src="sounds/death-race.mp3" type="audio/mpeg" />
+        <source src="https://cdn.jsdelivr.net/gh/woodle87/car@main/sounds/death-race.mp3" type="audio/mpeg" />
       </audio>
       <audio id="choose">
-        <source src="sounds/choose.mp3" type="audio/mpeg" />
+        <source src="https://cdn.jsdelivr.net/gh/woodle87/car@main/sounds/choose.mp3" type="audio/mpeg" />
       </audio>
     </div>
 
@@ -84,18 +84,18 @@
         loadModel(model3);
       });
 
-      import * as THREE from "./build/three.module.js";
-      import { OrbitControls } from "./build/OrbitControls.js";
-      import { GLTFLoader } from "./build/GLTFLoader.js";
-      import { RGBELoader } from "./build/RGBELoader.js";
+      import * as THREE from "https://cdn.jsdelivr.net/gh/woodle87/car@main/build/three.module.js";
+      import { OrbitControls } from "https://cdn.jsdelivr.net/gh/woodle87/car@main/build/OrbitControls.js";
+      import { GLTFLoader } from "https://cdn.jsdelivr.net/gh/woodle87/car@main/build/GLTFLoader.js";
+      import { RGBELoader } from "https://cdn.jsdelivr.net/gh/woodle87/car@main/build/RGBELoader.js";
 
       var camera, scene, renderer;
       var car;
       var gltf_loader = new GLTFLoader();
       
-      var model = "gltf/pagani_zonda_shooting_car/scene.gltf";
-      var model2 = "gltf/lamborghini_urus/scene.gltf";
-      var model3 = "gltf/peugeot_3008/scene.gltf";
+      var model = "https://cdn.jsdelivr.net/gh/woodle87/car@main/gltf/pagani_zonda_shooting_car/scene.gltf";
+      var model2 = "https://cdn.jsdelivr.net/gh/woodle87/car@main/gltf/lamborghini_urus/scene.gltf";
+      var model3 = "https://cdn.jsdelivr.net/gh/woodle87/car@main/gltf/peugeot_3008/scene.gltf";
 
       init();
       loop();
